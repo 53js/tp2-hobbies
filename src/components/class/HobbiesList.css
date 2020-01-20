@@ -1,0 +1,19 @@
+.HobbiesList {
+	padding: 0;
+}
+.HobbiesList > li {
+	cursor: pointer;
+	list-style: none;
+	padding: 10px;
+	position: relative;
+	text-align: left;
+}
+.HobbiesList > li:hover {
+	background-color: #ededed;
+}
+.HobbiesList > li:hover:after {
+	content: 'supprimer';
+	position: absolute;
+	right: 10px;
+	color: red;
+}
