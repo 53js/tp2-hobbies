@@ -31,7 +31,6 @@ class Hobbies extends Component {
 	};
 
 	handleClickRemoveHobby = (hobbyToRemove) => {
-		console.log('lci', hobbyToRemove, this.state);
 		this.setState((prevState) => {
 			const newHobbiesList = prevState.myhobbies.filter(
 				(hobby) => (hobby !== hobbyToRemove && hobby),

@@ -28,10 +28,12 @@ const Hobbies = () => {
 		setInputValue('');
 	};
 
-	const handleClickRemoveHobby = (hobbyToRemove) => {
+	const handleClickRemoveHobby = (hobbyToRemove) => { // hoobyToRemove est le hobby a supprimé
+		// on utilise la méthode filter qui va renvoyer un nouveau tableau
 		const newHobbiesList = myhobbies.filter(
 			(hobby) => hobby !== hobbyToRemove && hobby,
 		);
+		// on met à jour le state avec le nouveau tableau
 		setMyHobbies(newHobbiesList);
 	};
 
