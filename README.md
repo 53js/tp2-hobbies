@@ -1,4 +1,4 @@
 # TP2 - hobbies
-www.53js.fr/javascript.html
-François & Hugo
-2020
+Version vueJS
+https://jsbin.com/guwetoy/1/edit?html,output
+
